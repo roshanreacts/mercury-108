@@ -164,6 +164,7 @@ export const config: WebdriverIOConfig = {
         // <string[]> (file/dir) require files before executing features
         import: [
             './features/step-definitions/steps.ts',
+            './features/steps/*.ts',
             './features/support/*.ts',
         ],
         // <string[]> (type[:path]) specify native Cucumber.js output format, if needed. Optionally supply PATH to redirect formatter output (repeatable)
